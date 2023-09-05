@@ -9,6 +9,5 @@ streamlit.text('🐔Hard-boiled free-range egg')
 streamlit.text('🥑🍞Avocado toast')
 
 streamlit.header('🏋️‍♀️Fitness Menu (an extra portion of protein!)')
-
 streamlit.text('🍗🥗chicken with salad')
 streamlit.text('🥩🍚 meat and rice')
