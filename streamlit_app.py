@@ -13,5 +13,6 @@ streamlit.header('🏋️‍♀️Fitness Menu (an extra portion of protein!)')
 streamlit.text('🍗🥗chicken with salad')
 streamlit.text('🥩🍚 meat and rice')
 
+streamlit.header('🍇🍈🍉Build your own smoothie🍒🥝🍎🍍')
 my_fruit_list = pandas.read_csv("https://uni-lab-files.s3.us-west-2.amazonaws.com/dabw/fruit_macros.txt")
 streamlit.dataframe(my_fruit_list)
