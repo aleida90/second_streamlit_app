@@ -52,5 +52,7 @@ my_data_rows=my_cur2.fetchall();
 streamlit.header("The fruit list contains:")
 streamlit.dataframe(my_data_rows)
 
-
+add_a_fruit=streamlit.text_input('What fruit would you like to add to the list?');
+my_cur3 = my_cnx.cursor()
+my_cur3.execute(" INSERT INTO pc_rivery_db.public.fruit_load_list VALUES( '"+add_a_fruit+"')")
 
