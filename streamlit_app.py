@@ -47,8 +47,8 @@ streamlit.text("Hello from Snowflake:")
 streamlit.text(my_data_row)
 
 my_cur2 = my_cnx.cursor()
-mycur2.execute("SELECT * FROM pc_rivery_db.public.fruit_load_list")
-my_data_row=mycur2.fetchone();
+my_cur2.execute("SELECT * FROM pc_rivery_db.public.fruit_load_list")
+my_data_row=my_cur2.fetchone();
 streamlit.text("fruit list:")
 streamlit.text(my_data_row)
 
